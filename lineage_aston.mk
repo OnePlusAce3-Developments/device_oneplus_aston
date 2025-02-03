@@ -30,15 +30,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     SystemDevice=OP5D35L1 \
     SystemName=CPH2585
 
-# RisingOS Config
-RISING_MAINTAINER="uwugl"
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    RisingChipset="Qualcomm Snapdragon 8 Gen 2" \
-    RisingMaintainer="uwugl"
-TARGET_ENABLE_BLUR := true
-TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := false
 WITH_GMS := true
-TARGET_DEFAULT_PIXEL_LAUNCHER := true
-RISING_PACKAGE_TYPE := PIXEL
-TARGET_ENABLE_BLUR := true
 
