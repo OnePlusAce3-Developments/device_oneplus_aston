@@ -1332,10 +1332,6 @@ odm/firmware/tp/23801/sys_edge_touch_config.xml
 odm/firmware/tp/23801/sys_touch_algo_feature_config.xml
 odm/firmware/tp/23801/sys_touch_function_feature_config.xml
 
-# Vibrator
-odm/etc/aac_richtap.config
-vendor/lib64/libaacvibrator.so
-
 # UFS
 odm/firmware/ufs/MICRON-MT001TAYAX8U40.bin
 odm/firmware/ufs/MICRON-MT128GBCAV2U31.bin
