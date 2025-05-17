@@ -1232,7 +1232,7 @@ vendor/lib64/vendor.qti.hardware.camera.aon-service-impl.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 # Charger
-odm/firmware/fastchg/23861/charging_hyper_mode_config.txt
+odm/firmware/fastchg/23801/charging_hyper_mode_config.txt
 odm/firmware/fastchg/bms_heating_config.txt
 odm/firmware/fastchg/charge_time_config.csv
 odm/firmware/fastchg/charging_thermal_config_default.txt
@@ -1290,7 +1290,6 @@ odm/etc/sensor/config/aston_qrd_ois_system.json
 odm/etc/sensor/config/kailua_mtp_alsps.json
 odm/etc/sensor/config/kailua_mtp_alsps_hw_tcs3720.json
 odm/etc/sensor/config/kailua_mtp_bmi26x.json
-odm/etc/sensor/config/kailua_mtp_bmp380.json
 odm/etc/sensor/config/kailua_mtp_cct_rear.json
 odm/etc/sensor/config/kailua_mtp_freefall.json
 odm/etc/sensor/config/kailua_mtp_mmc56x3x.json
@@ -1336,7 +1335,5 @@ odm/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh
 odm/firmware/ufs/ufs_version_config.xml
 
 # WiFi
-odm/etc/wifi/kiwi/bdwlan.b0a
-odm/etc/wifi/kiwi/bdwlan.b0ie
 odm/etc/wifi/kiwi/bdwlan.elf
 odm/etc/wifi/kiwi/regdb.bin
