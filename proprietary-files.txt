@@ -1007,7 +1007,6 @@ odm/lib64/libml_util.so
 odm/lib64/libmpbase.so
 odm/lib64/libnpu.so
 odm/lib64/libocce3a.so
-odm/lib64/liboplus-uah-client.so
 odm/lib64/liboplusblur_capture_api.so
 odm/lib64/liboptical_zoom_dc.so
 odm/lib64/liboptical_zoom_vs.so
@@ -1044,7 +1043,6 @@ odm/lib64/vendor.oplus.hardware.extcamera@1.0.so
 odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so
 odm/lib64/vendor.oplus.hardware.sendextcamcmd-V2-ndk.so
 vendor/lib64/camera/com.qti.flash.lm3644.so
-odm/lib64/vendor.oplus.hardware.urcc-V1-ndk.so
 system/lib64/libziparchive.so:odm/lib64/libziparchive_odm.so;FIX_SONAME
 vendor/bin/hw/vendor.qti.camera.provider-service_64
 vendor/etc/init/vendor.qti.camera.provider-service_64.rc

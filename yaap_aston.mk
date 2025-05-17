@@ -12,9 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/aston/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_aston
+PRODUCT_NAME := yaap_aston
 PRODUCT_DEVICE := aston
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -29,3 +29,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=CPH2585 \
     SystemDevice=OP5D35L1 \
     SystemName=CPH2585
+
+TARGET_BOARD_PLATFORM := kalama
