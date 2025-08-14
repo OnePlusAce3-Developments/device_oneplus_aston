@@ -13,20 +13,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     $(LOCAL_PATH)/configs/audio/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 2376
-TARGET_SCREEN_WIDTH := 1080
-
-# LiveDisplay
-$(call soong_config_set,OPLUS_LINEAGE_LIVEDISPLAY_HAL,ENABLE_AF,true)
-
 # Display
 PRODUCT_SYSTEM_PROPERTIES += \
     sys.brightness.disable_gamma_conversion=true
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-sun
 
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
