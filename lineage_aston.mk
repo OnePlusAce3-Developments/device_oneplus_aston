@@ -8,17 +8,17 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from salami device
-$(call inherit-product, device/oneplus/salami/device.mk)
+# Inherit from aston device
+$(call inherit-product, device/oneplus/aston/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_salami
-PRODUCT_DEVICE := salami
+PRODUCT_NAME := lineage_aston
+PRODUCT_DEVICE := aston
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := CPH2449
+PRODUCT_MODEL := Ace 3
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
