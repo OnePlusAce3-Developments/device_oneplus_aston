@@ -23,9 +23,9 @@ PRODUCT_MODEL := Ace 3
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="qssi-user 15 AP3A.240617.008 1752563877199 release-keys" \
-    BuildFingerprint=OnePlus/CPH2449EEA/OP594DL1:15/TP1A.220905.001/T.R4T3.4d29cfd-2e7d32a-2e8485b:user/release-keys \
-    DeviceName=OP594DL1 \
-    DeviceProduct=CPH2449 \
-    SystemDevice=OP594DL1 \
-    SystemName=CPH2449
+    BuildDesc="qssi-user 15 AP3A.240617.008 1749544165614 release-keys" \
+    BuildFingerprint=OnePlus/PJE110/OP5CF9L1:15/TP1A.220905.001/U.54de112-36ba414-36ba415:user/release-keys \
+    DeviceName=OP5CF9L1 \
+    DeviceProduct=PJE110 \
+    SystemDevice=OP5CF9L1 \
+    SystemName=PJE110
