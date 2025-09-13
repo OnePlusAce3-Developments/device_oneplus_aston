@@ -1278,6 +1278,10 @@ odm/firmware/pxlw_i7p_panel_AA551_P_3_A0004_dsc_cmd.fw
 odm/lib64/hw/vendor.pixelworks.hardware.display@1.0-impl-1.2-i7p.so
 odm/lib64/libpwirisservicei7p.so
 
+# Display calibration data - AA551
+vendor/etc/display/qdcm_calib_data_AA551_P_3_A0004_dsc_cmd_mode_panel.json
+vendor/etc/ltm_config_AA551_P_3_A0004_dsc_cmd_mode_panel.xml
+
 # Sensors config
 odm/etc/sensor/config/aston_qrd_ois_system.json
 odm/etc/sensor/config/kailua_mtp_alsps.json
