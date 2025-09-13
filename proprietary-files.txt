@@ -1426,8 +1426,15 @@ odm/firmware/ufs/ufs_version_config.xml
 odm/etc/aac_richtap.config
 
 # WiFi
-odm/etc/wifi/kiwi/bdwlan.b0a
-odm/etc/wifi/kiwi/bdwlan.b0e
-odm/etc/wifi/kiwi/bdwlan.b0i
 odm/etc/wifi/kiwi/bdwlan.elf
 odm/etc/wifi/kiwi/regdb.bin
+odm/etc/wifi/kiwi/regdb_version
+odm/etc/wifi/bdwlan.elf
+odm/etc/wifi/bdwlang.elf
+odm/etc/wifi/bin_version
+odm/etc/wifi/cnss_diag.conf
+odm/etc/wifi/cnss_diag_always_on.conf
+odm/etc/wifi/regdb.bin
+odm/etc/wifi/regdb_version
+odm/etc/wifi/sar-vendor-cmd.xml
+odm/etc/wifi/wifisar.cfg
