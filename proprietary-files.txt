@@ -221,10 +221,27 @@ odm/etc/sensor/config/salami_qrd_ois_system.json
 odm/etc/sensor/sensor_config.json
 
 # Touchscreen firmware
-odm/firmware/tp/22811/FW_S3908_SAMSUNG.img
-odm/firmware/tp/22811/FW_S3908_SAMSUNG_FAE.img
-odm/firmware/tp/22811/FW_S3908_SAMSUNG_sys_edge_touch_config.img
-odm/firmware/tp/22811/LIMIT_S3908_SAMSUNG.img
+odm/firmware/tp/23801/FW_S3910_BOE.img
+odm/firmware/tp/23801/FW_S3910_BOE_FAE.img
+odm/firmware/tp/23801/FW_S3910_BOE_HBP.img
+odm/firmware/tp/23801/FW_S3910_BOE_HBP_FAE.img
+odm/firmware/tp/23801/FW_S3910_TIANMA.img
+odm/firmware/tp/23801/FW_S3910_TIANMA_FAE.img
+odm/firmware/tp/23801/FW_S3910_TIANMA_HBP.img
+odm/firmware/tp/23801/FW_S3910_TIANMA_HBP_FAE.img
+odm/firmware/tp/23801/LIB_S3910_BOE_HBP_TS_ALGO.so
+odm/firmware/tp/23801/LIB_S3910_BOE_HBP_TS_HAL.so
+odm/firmware/tp/23801/LIB_S3910_TIANMA_HBP_TS_ALGO.so
+odm/firmware/tp/23801/LIB_S3910_TIANMA_HBP_TS_HAL.so
+odm/firmware/tp/23801/LIMIT_S3910_BOE.img
+odm/firmware/tp/23801/LIMIT_S3910_BOE_HBP.img
+odm/firmware/tp/23801/LIMIT_S3910_BOE_HBP_AGING.img
+odm/firmware/tp/23801/LIMIT_S3910_TIANMA.img
+odm/firmware/tp/23801/LIMIT_S3910_TIANMA_HBP.img
+odm/firmware/tp/23801/libIfp.so
+odm/firmware/tp/23801/sys_edge_touch_config.xml
+odm/firmware/tp/23801/sys_touch_algo_feature_config.xml
+odm/firmware/tp/23801/sys_touch_function_feature_config.xml
 
 # Vibrator
 odm/etc/aac_richtap.config
