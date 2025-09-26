@@ -29,3 +29,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=PJE110 \
     SystemDevice=OP5CF9L1 \
     SystemName=PJE110
+
+# Inherit RisingOS configs
+-include device/oneplus/aston/rising_aston.mk
