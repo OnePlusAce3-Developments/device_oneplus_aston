@@ -29,3 +29,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=CPH2609 \
     SystemDevice=OP5D35L1 \
     SystemName=CPH2609
+
+# Inherit AviumUI configs.
+-include device/oneplus/aston/avium_aston.mk
