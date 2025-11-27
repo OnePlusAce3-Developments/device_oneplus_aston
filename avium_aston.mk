@@ -20,4 +20,8 @@ TARGET_ENABLE_BLUR := true
 # Spoof
 AVIUM_FORCE_SET_FAKE_PROP := true
 
+# Richtap
+TARGET_USES_RICHTAP := true
+
+# Maintainer
 AVIUM_MAINTAINER := uwu-gl
